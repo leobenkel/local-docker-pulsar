@@ -1,0 +1,4 @@
+FROM apachepulsar/pulsar:2.6.0
+
+COPY ./test_pulsar_consumer.py /root/test_pulsar_consumer.py
+COPY ./test_pulsar_producer.py /root/test_pulsar_producer.py
